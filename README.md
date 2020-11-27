@@ -5,11 +5,13 @@ Aplicativo de blog com a listagem dos posts e tela de detalhes. Encontrei esse [
 <p align="center">
     <img src="https://user-images.githubusercontent.com/16376748/100157153-d9d55980-2e88-11eb-98bd-af379c94a951.png" width="400">&nbsp;
     <img src="https://user-images.githubusercontent.com/16376748/100395425-9f51f500-301f-11eb-9e7a-da0971b013bd.png" width="400">&nbsp;
+    <img src="https://user-images.githubusercontent.com/16376748/100488988-5453e280-30f0-11eb-93cc-95398d7de1e1.png" width="400">&nbsp;
 </p>
 
 ## Vídeos
 - [Vídeo no YouTube - Parte 1](https://youtu.be/ZoXpB1IiXco)
 - [Vídeo no YouTube - Parte 2](https://youtu.be/aQwpT15Vo0A)
+- [Vídeo no YouTube - Parte 3](https://youtu.be/AVWrn4RoaH4)
  
 ## Requisitos
 - iOS 14

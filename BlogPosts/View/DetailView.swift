@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct DetailView: View {
+    @Environment(\.presentationMode) var present
+    
     var body: some View {
         VStack {
             Image("p1")
@@ -15,7 +17,9 @@ struct DetailView: View {
                 .scaledToFill()
                 .overlay(
                     VStack(alignment: .leading) {
-                        Button(action: {}, label: {
+                        Button(action: {
+                            present.wrappedValue.dismiss()
+                        }, label: {
                             Image(systemName: "chevron.left")
                                 .font(.system(size: 24, weight: .semibold))
                                 .foregroundColor(.black)
@@ -48,6 +52,8 @@ struct DetailView: View {
             Spacer()
         }
         .background(Color.black)
+        .navigationBarTitle("")
+        .navigationBarHidden(true)
         .ignoresSafeArea(.all, edges: [.top, .bottom])
     }
 }
